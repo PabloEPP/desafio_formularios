@@ -1,0 +1,21 @@
+
+
+
+
+<%if @last_sale %>
+    <h1>El registro fue almacenado con éxito!</h1>
+<%end  %>
+
+<h3><%=@last_sale.detail%></h3>
+<h3><%=@last_sale.category%></h3>
+<h3><%=@last_sale.total%></h3>
+
+
+
+
+
+
+
+
+
+<%= link_to "Back", sales_new_path %>
